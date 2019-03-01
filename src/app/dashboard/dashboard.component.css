@@ -1,0 +1,27 @@
+.example-container {
+     
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: baseline;
+    justify-content: left;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+  table{
+      width: 100%;
+  }
+  mat-list-item{
+      border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  mat-list-item:hover{
+     background-color:rgba(0,0,0,.12);
+    color: black;
+}

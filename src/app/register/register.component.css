@@ -1,0 +1,59 @@
+
+
+* { box-sizing:border-box; }
+
+body {
+	font-family: Helvetica;
+	background: #eee;
+  -webkit-font-smoothing: antialiased;
+}
+
+ 
+h1, h3 { font-weight: 300; }
+
+h1 { color: #636363; }
+
+h3 { color: #4a89dc; }
+
+form {
+	width: 380px;
+	margin: 4em auto;
+	padding: 3em 2em 2em 2em;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+
+.group { 
+	position: relative; 
+	margin-bottom: 15px; 
+}
+
+  
+/* Animations */
+
+@keyframes inputHighlighter {
+	from { background: #4a89dc; }
+	to 	{ width: 0; background: transparent; }
+}
+
+ 
+  
+
+.mat-form-field {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+.fa{
+    color: #3f51b5;
+    font-size: 45px;
+    background: #fff;
+}
+img {
+    width: 150px;
+  }
+
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 35px;
+  }

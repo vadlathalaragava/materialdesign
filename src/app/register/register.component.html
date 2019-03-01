@@ -1,0 +1,44 @@
+
+ 
+  <form>
+      <h1 align="center"><img src="http://weble.in/bhilwara/wp-content/uploads/2018/07/logonew.png"></h1>
+      <div class="group">
+          <mat-form-field>
+              <input matInput value="John" placeholder="User Name" #message>
+            </mat-form-field> 
+      </div>
+      <div class="group">
+          <mat-form-field>
+              <input matInput value="Doe" placeholder="Password" #action>
+            </mat-form-field> 
+      </div>
+
+      <div class="group">
+        <mat-radio-group>
+          <label>Gender &nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <mat-radio-button value="1"><i class="fa fa-male"></i></mat-radio-button>
+          <mat-radio-button value="2"><i class="fa fa-female"></i></mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="group">
+          <mat-form-field>
+              <input type="email" matInput value="" placeholder="Email" #email>
+            </mat-form-field> 
+      </div>
+      <div class="group">
+          <mat-form-field>
+              <input type="mobile" matInput value="" placeholder="Mobile" #mobile>
+            </mat-form-field> 
+      </div>
+      <!-- <div class="group">
+        <mat-form-field>
+            <input matInput placeholder="Enter your email" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div> -->
+
+
+      <div class="group">
+        <button mat-raised-button color="primary" (click)="openSnackBar(message.value, action.value)">Register</button>
+    </div>
+    </form> 

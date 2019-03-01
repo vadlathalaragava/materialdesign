@@ -1,0 +1,61 @@
+
+ 
+  <form>
+    <h1 align="center"><img src="https://pngimage.net/wp-content/uploads/2018/06/login-images-png-transparent-1.png"></h1>
+    <div class="group">
+        <mat-form-field>
+            <input matInput value="John" placeholder="User Name" #message>
+          </mat-form-field> 
+    </div>
+    <div class="group">
+        <mat-form-field>
+            <input matInput value="Doe" placeholder="Password" #action>
+          </mat-form-field> 
+    </div>
+    <div class="group">
+      <button mat-raised-button color="primary" (click)="openSnackBar(message.value, action.value)">Login</button>
+  </div>
+  </form>
+  <!-- <footer><a href="http://www.polymer-project.org/" target="_blank"><img src="https://www.polymer-project.org/images/logos/p-logo.svg"></a>
+    <p>You Gotta Love <a href="http://www.polymer-project.org/" target="_blank">Google</a></p>
+  </footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+          <mat-form-field>
+            <input matInput value="Disco party!" placeholder="Message" #message>
+          </mat-form-field> 
+    </div>
+
+    <div class="col-md-6 col-offset-3"> 
+        <mat-form-field>
+          <input matInput value="Dance" placeholder="Action" #action>
+        </mat-form-field>  
+    </div>
+  <div class="col-md-6 col-offset-3"> 
+      <button mat-button (click)="openSnackBar(message.value, action.value)">Show snack-bar</button>
+  </div>
+
+</div>
+  
+</div> -->
